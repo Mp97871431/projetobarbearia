@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#burger{
+    background-color: rgb(34, 34, 34);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+header{
+    background-color: black;
+}
+
+header > h2{
+    text-align: center;
+    color: white;
+}
+
+div{
+    display: block;
+    text-align: center;
+    }
+
+#burger:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+menu > ul > li > a{
+    background-color: rgb(92, 92, 92);
+    padding: 10px;
+    text-align: center;
+    display: block;
+    border-top: 2px solid black;
+    color: white;
+}
+
+menu > ul > li > a:hover{
+    background: rgb(221, 219, 219);
+}
+
+section{
+    text-align: justify;
+    line-height: 2em;
+}
+
+section h2{
+    text-align: center;
+}
+
+section.imagem{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: rgb(70, 69, 69);
+    color: white;
+    background-attachment: fixed;
+}
+
+section.normal{
+   padding-top: 15px;
+}
+
+section#img1{
+    background-image: url('imagens/pexels-nickoloui-1319459.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top left;
+   background-attachment: fixed;
+}
+
+section#img2{
+    background-image: url('imagens/pexels-nickoloui-1319460.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+}
