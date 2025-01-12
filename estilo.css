@@ -12,6 +12,13 @@
     padding: 10px;
     color: white;
 }
+
+body > main{
+    background-image: url('imagens/pexels-nickoloui-1319460.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
 header{
     background-color: black;
 }
@@ -65,41 +72,25 @@ section h2{
     text-align: center;
 }
 
+
 section.imagem{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    background-color: rgb(70, 69, 69);
     color: white;
-    background-attachment: fixed;
-}
-
-section.normal{
-   padding-top: 15px;
-}
-
-section#img1{
-    background-image: url('imagens/pexels-nickoloui-1319459.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: top left;
-   background-attachment: fixed;
-}
-
-section#img2{
-    background-image: url('imagens/pexels-nickoloui-1319460.jpg');
-    background-repeat: repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: block;
     background-color: rgba(0, 0, 0, 0.623);
-    width: 400px;
+    width: 350px;
     padding: 10px;
     margin: auto;
+    border-radius: 10px;
 }
 
+section.normal{
+    background-color: white;
+}
 footer{
     background-color: black;
     color: white;
@@ -110,3 +101,4 @@ footer h2{
     text-align: center;
     color: white;
 }
+
