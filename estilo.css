@@ -14,7 +14,7 @@
 }
 
 body > main{
-    background-image: url('imagens/pexels-nickoloui-1319460.jpg');
+    background-image: url('imagens/pexels-caleboquendo-3162022.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right top;
@@ -81,7 +81,7 @@ section.imagem{
 
 section.imagem > p{
     display: block;
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(0, 0, 0, 0.555);
     width: 350px;
     padding: 10px;
     margin: auto;
@@ -89,7 +89,16 @@ section.imagem > p{
 }
 
 section.normal{
-    background-color: white;
+   background-color: white;
+   padding-top: 20px;
+}
+
+main.p2{
+     background-image: url('imagens/fundo-madeira.jpg');
+}
+
+section.p2{
+    padding: 20px;
 }
 footer{
     background-color: black;
