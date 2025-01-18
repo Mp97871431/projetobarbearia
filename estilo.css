@@ -28,6 +28,10 @@ header > h2{
     color: white;
 }
 
+h1{
+    text-align: center;
+}
+
 div{
     display: block;
     text-align: center;
@@ -99,6 +103,34 @@ main.p2{
 
 section.p2{
     padding: 20px;
+}
+
+main.p3{
+    background-image: url('imagens/fundo-madeira.jpg');
+}
+
+table{
+    border-collapse: collapse;
+    min-width: 450px;
+}
+caption{
+    font-size: 1.5em;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.432);
+}
+tbody>tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.322);
+}
+th{
+    background-color: gray;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+} 
+.numero{
+    text-align: right;
 }
 footer{
     background-color: black;
