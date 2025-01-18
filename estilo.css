@@ -99,6 +99,7 @@ section.normal{
 
 main.p2{
      background-image: url('imagens/fundo-madeira.jpg');
+     background-size: cover;
 }
 
 section.p2{
@@ -111,7 +112,7 @@ main.p3{
 
 table{
     border-collapse: collapse;
-    min-width: 450px;
+    min-width: 350px;
 }
 caption{
     font-size: 1.5em;

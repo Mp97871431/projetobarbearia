@@ -29,3 +29,7 @@ function clicar2(){
     var res3 = window.document.getElementById('res3')
     res3.innerHTML = `<p>corte estilo vintagi, bem retro porém com muita elegancia para o seu dia a dia</p>`
  }
+
+ function preço(){
+    window.alert('consultar preços atravez de meios de contato, pois podem variar')
+ }
